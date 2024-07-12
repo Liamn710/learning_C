@@ -13,5 +13,7 @@ int main(){
     {
         scanf("%d",&arr[i]);
     }
+    free(arr);
+    //free the memory used in the array, that way we dont have a memory leak
     return 0;
 }
